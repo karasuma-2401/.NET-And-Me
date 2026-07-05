@@ -1,0 +1,12 @@
+A:\.NET\TodoList\Entities\bin\Debug\net10.0\Entities.deps.json
+A:\.NET\TodoList\Entities\bin\Debug\net10.0\Entities.dll
+A:\.NET\TodoList\Entities\bin\Debug\net10.0\Entities.pdb
+A:\.NET\TodoList\Entities\obj\Debug\net10.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+A:\.NET\TodoList\Entities\obj\Debug\net10.0\Entities.AssemblyInfoInputs.cache
+A:\.NET\TodoList\Entities\obj\Debug\net10.0\Entities.AssemblyInfo.cs
+A:\.NET\TodoList\Entities\obj\Debug\net10.0\Entities.csproj.CoreCompileInputs.cache
+A:\.NET\TodoList\Entities\obj\Debug\net10.0\Entities.sourcelink.json
+A:\.NET\TodoList\Entities\obj\Debug\net10.0\Entities.dll
+A:\.NET\TodoList\Entities\obj\Debug\net10.0\refint\Entities.dll
+A:\.NET\TodoList\Entities\obj\Debug\net10.0\Entities.pdb
+A:\.NET\TodoList\Entities\obj\Debug\net10.0\ref\Entities.dll
