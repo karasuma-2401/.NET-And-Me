@@ -32,4 +32,18 @@ public class FileMySessionStorageEngine : IMySessionStorageEngine
         var json = await streamReader.ReadToEndAsync(cancellationToken);
         return System.Text.Json.JsonSerializer.Deserialize<Dictionary<string, byte[]>>(json) ?? [];
     }
+    public Dictionary<string, byte[]> Load(string id)
+    {
+        string filePath = Path.Combine(_directoryPath, id);
+        if (!File.Exists(filePath))
+        {
+            return [];
+        }
+
+        using FileStream fileStream = new FileStream(filePath, FileMode.Open);
+        using StreamReader streamReader = new StreamReader(fileStream);
+
+        var json = streamReader.ReadToEnd();
+        return System.Text.Json.JsonSerializer.Deserialize<Dictionary<string, byte[]>>(json) ?? [];
+    }
 }

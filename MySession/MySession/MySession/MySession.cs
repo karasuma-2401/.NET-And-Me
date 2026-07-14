@@ -10,7 +10,7 @@ public class MySession (string id, IMySessionStorageEngine engine) : ISession
     {
         get
         {
-            LoadAsync(CancellationToken.None).Wait();
+            Load();
             return true;
         }
     }
@@ -32,6 +32,15 @@ public class MySession (string id, IMySessionStorageEngine engine) : ISession
     {
         _store.Clear();
         var loadedStore = await engine.LoadAsync(Id, cancellationToken);
+        foreach (var pair in loadedStore)
+        {
+            _store[pair.Key] = pair.Value;
+        }
+    }
+    public void Load()
+    {
+        _store.Clear();
+        var loadedStore = engine.Load(Id);
         foreach (var pair in loadedStore)
         {
             _store[pair.Key] = pair.Value;

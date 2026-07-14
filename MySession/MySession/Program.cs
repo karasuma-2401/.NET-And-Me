@@ -4,15 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddSingleton<IMySessionStorageEngine>(services =>
-{
-    var path = Path.Combine(services.GetRequiredService<IHostEnvironment>().ContentRootPath, "sessions");
-    Directory.CreateDirectory(path);
-
-    return new FileMySessionStorageEngine(path);
-});
-
-builder.Services.AddSingleton<IMySessionStorage, MySessionStorage>();
+builder.Services.AddMySession();
 
 // builder.Services.AddDistributedMemoryCache();
 // builder.Services.AddSession(options =>
@@ -48,3 +40,7 @@ app.MapControllerRoute(
 
 
 app.Run();
+
+public partial class Program
+{
+}
