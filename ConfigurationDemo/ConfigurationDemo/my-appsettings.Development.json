@@ -1,0 +1,14 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "FileName": "my-appsettings.Development.json",
+  "ApiSettings": {
+    "BaseUrl": "http://test-api.example.com",
+    "ApiKey": "24012006",
+    "ApiSecret": "D7ED6491-0140-4364-B87C-C4EC8FE2330C"
+  }
+}
