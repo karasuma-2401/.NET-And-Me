@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "HttpsRedirectionDemo/1.0.0": {
+        "dependencies": {
+          "MyHttpsRedirection": "1.0.0"
+        },
+        "runtime": {
+          "HttpsRedirectionDemo.dll": {}
+        }
+      },
+      "MyHttpsRedirection/1.0.0": {
+        "runtime": {
+          "MyHttpsRedirection.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HttpsRedirectionDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyHttpsRedirection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

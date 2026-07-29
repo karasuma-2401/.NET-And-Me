@@ -1,0 +1,12 @@
+A:\.NET\HttpsRedirectionDemo\MyHttpsRedirection\bin\Debug\net10.0\MyHttpsRedirection.deps.json
+A:\.NET\HttpsRedirectionDemo\MyHttpsRedirection\bin\Debug\net10.0\MyHttpsRedirection.dll
+A:\.NET\HttpsRedirectionDemo\MyHttpsRedirection\bin\Debug\net10.0\MyHttpsRedirection.pdb
+A:\.NET\HttpsRedirectionDemo\MyHttpsRedirection\obj\Debug\net10.0\MyHttpsRedirection.GeneratedMSBuildEditorConfig.editorconfig
+A:\.NET\HttpsRedirectionDemo\MyHttpsRedirection\obj\Debug\net10.0\MyHttpsRedirection.AssemblyInfoInputs.cache
+A:\.NET\HttpsRedirectionDemo\MyHttpsRedirection\obj\Debug\net10.0\MyHttpsRedirection.AssemblyInfo.cs
+A:\.NET\HttpsRedirectionDemo\MyHttpsRedirection\obj\Debug\net10.0\MyHttpsRedirection.csproj.CoreCompileInputs.cache
+A:\.NET\HttpsRedirectionDemo\MyHttpsRedirection\obj\Debug\net10.0\MyHttpsRedirection.sourcelink.json
+A:\.NET\HttpsRedirectionDemo\MyHttpsRedirection\obj\Debug\net10.0\MyHttpsRedirection.dll
+A:\.NET\HttpsRedirectionDemo\MyHttpsRedirection\obj\Debug\net10.0\refint\MyHttpsRedirection.dll
+A:\.NET\HttpsRedirectionDemo\MyHttpsRedirection\obj\Debug\net10.0\MyHttpsRedirection.pdb
+A:\.NET\HttpsRedirectionDemo\MyHttpsRedirection\obj\Debug\net10.0\ref\MyHttpsRedirection.dll
