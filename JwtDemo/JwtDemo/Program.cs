@@ -1,8 +1,14 @@
-using System.Text;
+using System.Globalization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Logging;
 using Microsoft.IdentityModel.Tokens;
+using System.Text;
+
+IFormatProvider? enUS = new CultureInfo("en-US");
+IdentityModelEventSource.ShowPII = true;
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -33,6 +39,18 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 }
             };
         });
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Policy1", policy => policy.RequireRole("Role1").RequireRole("Role2")
+        .RequireClaim("client-id", "client1", "client2", "client3")
+        .RequireClaim("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/dateofbirth")
+        .RequireAssertion(context => context.User.Identity?.Name?.StartsWith("Le ", StringComparison.OrdinalIgnoreCase) ?? false)
+        .RequireAssertion(context => 
+            DateTime.TryParseExact(context.User.Claims.Where(c => c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/dateofbirth").Select(c => c.Value).FirstOrDefault(), "yyyy-MM-dd", enUS, DateTimeStyles.None, out DateTime dob)
+            && dob.Year < 2000)
+    );
+    options.AddPolicy("Policy2", policy => policy.RequireRole("Role3"));
+});
 
 var app = builder.Build();
 
