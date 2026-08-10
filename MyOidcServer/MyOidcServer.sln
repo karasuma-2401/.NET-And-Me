@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OidcServer", "OidcServer\OidcServer.csproj", "{4CBFE923-B194-477E-A4EA-AB52338C9123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OidcWebClient", "OidcWebClient\OidcWebClient.csproj", "{DEA4D63B-9038-4184-B959-B546A07875A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CBFE923-B194-477E-A4EA-AB52338C9123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBFE923-B194-477E-A4EA-AB52338C9123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBFE923-B194-477E-A4EA-AB52338C9123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBFE923-B194-477E-A4EA-AB52338C9123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA4D63B-9038-4184-B959-B546A07875A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA4D63B-9038-4184-B959-B546A07875A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA4D63B-9038-4184-B959-B546A07875A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA4D63B-9038-4184-B959-B546A07875A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
