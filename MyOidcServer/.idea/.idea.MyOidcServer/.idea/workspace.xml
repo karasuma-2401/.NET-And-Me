@@ -45,6 +45,8 @@
     <setting file="file://$PROJECT_DIR$/OidcServer/Views/Authorize/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OidcServer/Views/Authorize/SubmitForm.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OidcServer/Views/Authorize/UserNotFound.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OidcWebClient/Controllers/ProfileController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OidcWebClient/Views/Profile/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -52,61 +54,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="5.71765970781603E-8" />
-      <entry key="MS500" value="0.035599480770055425" />
-      <entry key="S2" value="0.4382732832766848" />
-      <entry key="S5" value="0.8251550800845527" />
-      <entry key="S10" value="1.1762016229405645" />
-      <entry key="S30" value="1.6368941395599659" />
-      <entry key="S60" value="1.811485699148008" />
-      <entry key="M2" value="1.99247477101971" />
-      <entry key="M5" value="4.383744641848466" />
-      <entry key="M10" value="24.145324997779994" />
-      <entry key="M15" value="56.021703509979304" />
-      <entry key="M30" value="148.1122431068479" />
-      <entry key="H1" value="253.4278131771561" />
-      <entry key="H2" value="335.8592127289605" />
-      <entry key="H4" value="387.90885334901736" />
-      <entry key="D1" value="438.1217678145647" />
-      <entry key="W1" value="447.42793725839385" />
+      <entry key="MS100" value="1.8613811610556805" />
+      <entry key="MS500" value="3.7318302630647753" />
+      <entry key="S2" value="4.625860286872909" />
+      <entry key="S5" value="5.738513814701957" />
+      <entry key="S10" value="10.91150246393774" />
+      <entry key="S30" value="31.36265120107418" />
+      <entry key="S60" value="44.75694679097785" />
+      <entry key="M2" value="54.138342838912955" />
+      <entry key="M5" value="60.97466134607457" />
+      <entry key="M10" value="65.00248146308095" />
+      <entry key="M15" value="71.46209307661873" />
+      <entry key="M30" value="113.72558233540116" />
+      <entry key="H1" value="212.40257527429966" />
+      <entry key="H2" value="329.1666192847644" />
+      <entry key="H4" value="421.0723457126657" />
+      <entry key="D1" value="523.1470574057713" />
+      <entry key="W1" value="543.5145871562505" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000000000001306" />
-      <entry key="MS500" value="1.002652290094125" />
-      <entry key="S2" value="1.295402208284588" />
-      <entry key="S5" value="2.3618660087324503" />
-      <entry key="S10" value="3.9384989407024547" />
-      <entry key="S30" value="6.565449902255246" />
-      <entry key="S60" value="7.647936857889905" />
-      <entry key="M2" value="8.313566515718794" />
-      <entry key="M5" value="10.163763501350878" />
-      <entry key="M10" value="19.050385669422454" />
-      <entry key="M15" value="31.552333742714797" />
-      <entry key="M30" value="64.33255832478446" />
-      <entry key="H1" value="99.12199599076317" />
-      <entry key="H2" value="125.2334653502168" />
-      <entry key="H4" value="141.36015850239124" />
-      <entry key="D1" value="156.70151941594372" />
-      <entry key="W1" value="159.5238454000184" />
+      <entry key="MS100" value="1.008508897581663E-53" />
+      <entry key="MS500" value="2.8161708174859128E-11" />
+      <entry key="S2" value="0.0035557809038892106" />
+      <entry key="S5" value="0.15753454128746006" />
+      <entry key="S10" value="0.5605200538077868" />
+      <entry key="S30" value="1.3084207349137291" />
+      <entry key="S60" value="1.6176019416968666" />
+      <entry key="M2" value="1.7986510075632627" />
+      <entry key="M5" value="1.9465295278849664" />
+      <entry key="M10" value="3.115665005469122" />
+      <entry key="M15" value="6.728472836070563" />
+      <entry key="M30" value="27.148587859322475" />
+      <entry key="H1" value="67.7846469999492" />
+      <entry key="H2" value="112.0255795467072" />
+      <entry key="H4" value="145.44850408043501" />
+      <entry key="D1" value="181.6499715875859" />
+      <entry key="W1" value="188.78218763338225" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="7.779320418678527E-5" />
-      <entry key="MS500" value="0.162219312203758" />
-      <entry key="S2" value="1.071026846673133" />
-      <entry key="S5" value="2.57632691259611" />
-      <entry key="S10" value="4.588413836130409" />
-      <entry key="S30" value="7.910518700880492" />
-      <entry key="S60" value="9.290050220380559" />
-      <entry key="M2" value="10.213855316885383" />
-      <entry key="M5" value="14.498501776951555" />
-      <entry key="M10" value="43.14381280543316" />
-      <entry key="M15" value="87.51455674177855" />
-      <entry key="M30" value="212.38246460145177" />
-      <entry key="H1" value="352.50121842998755" />
-      <entry key="H2" value="461.0618060699017" />
-      <entry key="H4" value="529.2515380161643" />
-      <entry key="D1" value="594.8200511015767" />
-      <entry key="W1" value="606.9513118335685" />
+      <entry key="MS100" value="1.6942665821802236" />
+      <entry key="MS500" value="3.660339159688738" />
+      <entry key="S2" value="4.606364527969327" />
+      <entry key="S5" value="5.871035464374037" />
+      <entry key="S10" value="11.430773170803224" />
+      <entry key="S30" value="32.62153363915979" />
+      <entry key="S60" value="46.33730593614929" />
+      <entry key="M2" value="55.91384345463422" />
+      <entry key="M5" value="62.9102463278635" />
+      <entry key="M10" value="68.10665992538101" />
+      <entry key="M15" value="78.17219351414471" />
+      <entry key="M30" value="140.8392077949214" />
+      <entry key="H1" value="280.14639598125405" />
+      <entry key="H2" value="441.1595482133074" />
+      <entry key="H4" value="566.4999726384711" />
+      <entry key="D1" value="704.7927345168442" />
+      <entry key="W1" value="732.2961384451908" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -118,29 +120,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.OidcServer: http.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.OidcServer: http.executor": "Run",
+    ".NET Launch Settings Profile.OidcServer: https.executor": "Run",
+    ".NET Launch Settings Profile.OidcWebClient: http.executor": "Run",
+    ".NET Launch Settings Profile.OidcWebClient: https.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.OidcServer: http">
-    <configuration name="OidcServer: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+}]]></component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.OidcWebClient: https">
+    <configuration name="OidcServer: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile" singleton="false">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/OidcServer/OidcServer.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
       <option name="LAUNCH_PROFILE_NAME" value="http" />
@@ -156,7 +161,7 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="OidcServer: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+    <configuration name="OidcServer: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile" singleton="false">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/OidcServer/OidcServer.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
       <option name="LAUNCH_PROFILE_NAME" value="https" />
@@ -204,6 +209,12 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.OidcServer: http" />
+      <item itemvalue=".NET Launch Settings Profile.OidcServer: https" />
+      <item itemvalue=".NET Launch Settings Profile.OidcWebClient: http" />
+      <item itemvalue=".NET Launch Settings Profile.OidcWebClient: https" />
+    </list>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -215,6 +226,7 @@
       <workItem from="1786267451517" duration="2136000" />
       <workItem from="1786278296840" duration="4534000" />
       <workItem from="1786294222390" duration="1080000" />
+      <workItem from="1786361226977" duration="3518000" />
     </task>
     <servers />
   </component>

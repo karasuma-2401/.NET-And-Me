@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Resource Sharing Web</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    
+    <div id="resource-content">
+        
+    </div>
+    <button onclick="getResource()">GetResource</button>
+</div>
+
+<script type="text/javascript">
+    function getResource() {
+        fetch("https://localhost:7255/api/resource").then(
+            res => res.text()
+        ).then(
+            data => {
+                document.getElementById("resource-content").innerHTML = data;
+            }
+        );
+    }
+</script>
