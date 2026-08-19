@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ghtk.Authorization")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e49da9730c473a8d8c1857de358f5a24df4451f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8d05c30af819aabde35f692de79d48dfcf40c71")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ghtk.Authorization")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ghtk.Authorization")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
